@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2023, 7:52:44 PM
+    Author     : Walking Bag
+*/
+
+body{
+    margin: 0; 
+    height: 100%;
+    overflow: hidden;
+}
+
+.notes{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    font-family: monospace;
+
+}
+
+.noteSidebar{
+    border-right: 3px solid #CFCFC4;
+    flex-shrink: 0;
+    overflow-y: auto;
+    padding: 1em;
+    width: 350px;
+    height: 100vh; 
+    background-color: #1f2937;
+    color: white;
+
+}
+.searchBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.buttonAdd{
+    background:#23a097;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em; 
+    padding: 1em 0;
+    width: 100%;    
+    transition: background-color 0.2s ease-in-out;
+
+}
+
+.buttonAdd:hover{
+    background: #0ccfbf;
+}
+
+.buttonAdd:hover, .noteObject:hover{
+    cursor:pointer;
+}
+
+.noteSmall-title{
+    padding: 10px;
+    font-size: 1.75em;
+}
+
+.noteSmall-body{
+    padding: 0 10px;
+
+}
+
+.noteSmall-timeStamp{
+    color: white;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.noteView{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 3em;
+    flex-grow: 1;
+    border: solid 1px ;
+
+}
+
+.noteTitle{
+    border: none;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.noteInput{
+
+    border: none;
+    font-size: 1.75em;
+    margin-top: 1em;
+    resize: none;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.noteInput[type="submit"] {
+    display: none;
+} 
+
+.noteTitle:focus, .noteInput:focus{
+    outline: none;
+    border: none;
+}

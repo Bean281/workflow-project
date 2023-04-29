@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/note.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/css/noteList.css</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/login.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/src/java/Servlet/LoadNoteServlet.java</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/5minsBreak.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/note.html</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/src/java/Servlet/DeleteNoteServlet.java</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/aboutus.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/src/java/Note/noteDAO.java</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/10minsBreak.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/countdowntimer.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/account_management.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/addNoteList.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/index.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/sign_up.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/src/java/Servlet/DeleteAccountServlet.java</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/CustomizeTimer.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/index.html</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/src/java/Servlet/AddNoteServlet.java</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/editNoteList.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/src/java/Servlet/ShowInformationServlet.java</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/web/account_information.jsp</file>
+            <file>file:/D:/New%20project/Super%20new%20folder/prj301-se23sp3w-04/WorkFlow/src/java/Servlet/SearchNoteServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Preview of Notetaking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="notes" id="app">
+
+            <div class="noteSidebar">
+                <div class="searchBar" >
+                    <div class="dropdown">
+                        <button class="glyphicon glyphicon-align-justify btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Note Taking</a></li>
+                            <li><a href="countdowntimer.jsp">Timer</a></li>
+                            <li><a href="#">User</a></li>
+                        </ul>
+                    </div>
+                    <div class="input-group">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />                      
+                    </div>
+                </div>
+                <br>
+                <form action="addNoteList" method="POST">
+                    <input type="hidden" name="action" value="add" />
+                    <button class="buttonAdd" type="submit" name="action">Add note!</button>
+                </form>
+                <div class="noteList">
+                    <div class="noteObject">
+                        <div class="noteSmall-title">What did I learn today.</div>
+                        <div class="noteSmall-body">Something I don't remember.</div>
+                        <div class="noteSmall-timeStamp">September 13th 2023</div>
+                    </div>
+                    <div style="display: flex;">
+                        <form action="MainController" method="POST">                           
+                            <input type="submit" value="Update" name="action" />
+                        </form>
+                        <form action="MainController" method="POST">                    
+                            <input type="submit" value="Delete" name="action" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="noteView">
+                <input type="text" name="noteTitle" class="noteTitle" value="" placeholder="Enter a title..."/>
+                <br/>
+                <form action="noteInput" method="post">
+                    <textarea name="myNote" class="noteInput" placeholder="Lorem ipsum dol..."></textarea>
+                </form>
+
+            </div>
+
+        </div>
+    </body>
+</html>
